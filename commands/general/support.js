@@ -17,7 +17,7 @@ module.exports = {
 let butn = new MessageButton()
   .setStyle('url')
   .setURL('https://discord.gg/evil-team') 
-  .setEmoji('<:emoji_96:963873766801301514>')
+  .setEmoji('963873766801301514')
   .setLabel('Support Server!')
 
 message.channel.send(`This is a server support **Olivia** if you need help, enter the Support Server`, butn);
