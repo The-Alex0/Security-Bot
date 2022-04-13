@@ -6,7 +6,7 @@ require('discord-buttons')(bot);
 const { Color, Image, Footer, Author } = require("./config.js");
 const fs = require("fs"); 
 const request = require("request");
-const prefix = "e!";
+const prefix = "!";
 const { Collection, MessageEmbed } = require("discord.js");
 const { inspect } = require("util");
 let dev = ["802491275445010443"];
