@@ -12,9 +12,9 @@ const { inspect } = require("util");
 let dev = ["802491275445010443"];
 const cmd = require("node-cmd");
 
-bot.login("OTU2OTgxMTg3OTk2NDM0NTMy.Yj4ILw.A9kWJysPTnYyRtKbau7a-3hVjVo")
+bot.login("OTU4Mzc1ODY3OTMzOTQ1ODU3.YkMbFA.NIjZ_Mq0chTMx4M8JjwGpdoQlsE")
 global.mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://carloblackman123:carloblackman123@cluster0.xcwvw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+mongoose.connect("mongodb+srv://Ano:ano123@ano.mjkfe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
   console.log("✅ Connected to the database.");
 }).catch((err) => {
   console.log("❎ Unable to connect to the Mongodb database. Error:" + err);
