@@ -31,13 +31,13 @@ module.exports = {
       let button1 = new MessageButton()
        .setStyle('url')
        .setURL('https://discord.com/api/oauth2/authorize?client_id=956981187996434532&permissions=8&scope=bot') 
-       .setEmoji(`<:emoji_97:963873812510810193>`)
+       .setEmoji(`963873812510810193`)
        .setLabel('Invite')
 
       let button2 = new MessageButton()
        .setStyle('url')
        .setURL('https://discord.gg/evil-team') 
-       .setEmoji(`<:emoji_96:963873766801301514>`)
+       .setEmoji(`963873766801301514`)
        .setLabel('Support')
      
       let row1 = new MessageActionRow()
