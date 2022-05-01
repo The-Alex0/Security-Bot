@@ -14,7 +14,7 @@ const cmd = require("node-cmd");
 
 bot.login("OTU4Mzc1ODY3OTMzOTQ1ODU3.YkMbFA.N3Bsyuf-iqt-IGvaNswoKj7kzOU")
 global.mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://tiger11:AaSsDdFf12@cluster0.e9y1k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+mongoose.connect("", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
   console.log("✅ Connected to the database.");
 }).catch((err) => {
   console.log("❎ Unable to connect to the Mongodb database. Error:" + err);
