@@ -12,7 +12,7 @@ const { inspect } = require("util");
 let dev = ["802491275445010443"];
 const cmd = require("node-cmd");
 
-bot.login("OTU4Mzc1ODY3OTMzOTQ1ODU3.YkMbFA.N3Bsyuf-iqt-IGvaNswoKj7kzOU")
+bot.login("Token Dane")
 global.mongoose = require('mongoose')
 mongoose.connect("", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
   console.log("✅ Connected to the database.");
